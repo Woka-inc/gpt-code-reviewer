@@ -144,7 +144,6 @@ import * as dotenv from 'dotenv';
         return response.choices[0].message.content;
     }
 
-
     // 전체 리뷰 생성 및 게시 프로세스
     async function reviewPullRequest(owner, repo, pull_number, base, head) {
         try {
